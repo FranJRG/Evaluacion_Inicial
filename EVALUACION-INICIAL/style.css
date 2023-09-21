@@ -1,0 +1,248 @@
+header {
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 10px;
+}
+
+
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 40px;
+  color: cadetblue;
+}
+
+a:hover{
+  border-bottom: 1px solid;
+  background-color: grey;
+}
+
+a:active{
+  background: #265301;
+  color: #cdfeaa;
+}
+
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: cadetblue;
+  text-align: center;
+}
+
+#menu{
+  background-color: blue;
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+#barra{
+  background-color: red;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding-bottom: 32px;
+  padding-top: 2px;
+  margin-top: 0cm;
+}
+
+a{
+  color: white;
+}
+
+.cuerpo2 {
+  background-image: url("450_1000.webp");
+}
+
+#tabla {
+  border: solid black 2px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px;
+  width: 5cm;
+}
+
+.derecha {
+  text-align: center;
+}
+
+button {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#enlace2{
+    background-color: red;
+  margin-left: 550px;
+  margin-right: 550px;
+  padding-bottom: 32px;
+  padding-top: 2px;
+  margin-top: 0cm;
+}
+
+#enlace {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  background-color: #555;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 10px;
+  margin-top: 120px;
+  margin-bottom: 0px;
+}
+
+#footer2 {
+  background-color: #555;
+  text-align: center;
+  padding: 5px;
+  text-shadow: 0px 0px 10px;
+  margin-top: 320px;
+  margin-bottom: -10px;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+#forma {
+  background-color: white;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#personas {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#personasM {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#button {
+  width: 150px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#imagen {
+  width: 50px;
+}
+
+.imagen2 {
+  width: 5px;
+  height: 5px;
+}
+
+p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+form {
+  background-color: white;
+}
+
+h1 {
+  background-color: crimson;
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 155%;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+input[type="email"] {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+input[type="number"] {
+  border: 2px solid green;
+  border-radius: 4px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #555;
+}
+
+input[type="email"]:focus {
+  border: 3px solid #555;
+}
+
+input[type="number"]:focus {
+  border: 3px solid #555;
+}
+
+form {
+  text-align: center;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #04aa6d;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+#reloj {
+  font-family: sans-serif;
+  font-size: 60px;
+  text-shadow: 0px 0px 1px #333;
+  color: white;
+}
+
+#fecha {
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+
+.reloj2 {
+  background-color: rgb(12, 119, 206);
+  padding: 25px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Evaluacion Inicial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="reloj()">
+    
+    <header class="cabecero">
+        <h1>Centro de Usuario</h1>
+    </header>
+    
+    
+    <!-- <div align="center" id="derecha">
+        <p>Acceda al formulario de Registro: 
+            <a href="formulario.html">Formulario de registro</a> 
+            <img id="imagen" src="user-33638_1280.webp">
+        </p> 
+    </div> -->
+
+    <div id="menu">
+        <nav id="barra">
+            <a href="formulario.html">Acceda al formulario de registro</a>
+            <img id="imagen" src="user-33638_1280.webp">
+        </nav>
+        <nav id="enlace2">
+            <a href="https://github.com/FranJRG/Evaluacion_Inicial">Visita nuestro GitHub</a>
+        </nav>
+    </div>
+
+    <hr color="black">
+    
+    <div class="bienvenida">
+        <h3 align="center">Bienvenido a su centro de usuario</h3>
+        <p align="center">Si no encuentra su nombre añadelo a la tabla, 
+            tambien puede modificar o borrar 
+            el usuario que desee:
+        </p>
+        <div>
+            <table align="center" id="tabla" border="1">
+                <tr>
+                    <td><b>Nombre</b></td>
+                    <td><b>Apellido</b></td>
+                    <td><b>Email</b></td>
+                    <td><b>Edad</b></td>
+                </tr>
+                <tr>
+                    <td>Lidia</td>
+                    <td>Fernandez</td>
+                    <td>lfernandez@gmail.com</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>Manolo</td>
+                    <td>Perez</td>
+                    <td>manolop@gmail.com</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>Pepe</td>
+                    <td>Martinez</td>
+                    <td>ppibañez@gmail.com</td>
+                    <td>45</td>
+                </tr>
+            </table>
+        </div> <br>
+        
+        <button class="btn btn-primary" onclick="agregarPersona()">Añadir Persona</button>
+        <button class="btn btn-primary" onclick="borrarPersona()">Borrar Persona</button>
+        <button class="btn btn-primary" onclick="modificarPersona()">Modificar Persona</button>
+
+    </div>
+
+    
+    
+    <div>
+        <p>Personas añadidas: </p>
+        <div>
+            <ol id="personas">
+
+            </ol>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div>
+        <p>Personas modificadas: </p>
+        <div>
+            <ol id="personasM">
+
+            </ol>
+        </div>
+    </div>
+    
+    <br>
+
+    <div id="reloj">
+        <div id="container" class="reloj2">
+            <div id="hora"> </div>
+            <div id="fecha"> </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <p>Francisco Javier Ram&iacute;rez Garc&iacute;a</p>
+    </div>
+    
+    <script src="funciones.js"></script>
+</body>
+</html>

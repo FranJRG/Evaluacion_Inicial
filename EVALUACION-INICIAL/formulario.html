@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cuerpo2">
+
+    <h2>Bienvenido a la seccion de registro</h2>
+
+    <p align="center">Porfavor introduzca sus datos: </p>
+
+    <form id="forma">
+        <fieldset>
+    
+            <legend>Datos Usuario</legend>
+            
+            <label >Name</label>
+            
+            <p><input type="text" name="name" onfocus="pink(this)" onblur="white(this)"></p><br>
+
+            <label>Edad</label>
+            
+            <p><input type="date" name="age" onfocus="pink(this)" onblur="white(this)"></p> <br>
+    
+            <label>Apellido</label>
+
+            <p><input type="text" name="apellido" onfocus="pink(this)" onblur="white(this)"></p> <br>
+    
+            <label>Email</label>
+        
+            <p><input type="email" name="email" onfocus="pink(this)" onblur="white(this)" required></p> <br>
+            
+            <input id="button" type="submit">
+            
+        </fieldset>
+    </form>
+    
+    <div id="footer2">
+        <a id="enlace" href="index.html">Volver a la pagina principal</a>
+    </div>
+
+    <script src="funciones.js"></script>
+</body>
+</html>
+
